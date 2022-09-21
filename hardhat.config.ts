@@ -15,16 +15,17 @@ const config: HardhatUserConfig = {
       url: MAINNET_RPC_URL,
       chainId: 10,
     },
-    "hardhat": {
-      forking: {
-        url: MAINNET_RPC_URL,
-        blockNumber: 24251989
-      }
-    },
+    // "hardhat": {
+    //   forking: {
+    //     url: MAINNET_RPC_URL,
+    //     blockNumber: 24251989
+    //   }
+    // },
     // "localhost": {
     //   forking: {
     //     url: MAINNET_RPC_URL,
-    //     blockNumber: 24140200
+    //     blockNumber: 24251989,
+    //     // blockNumber: 24140200
     //   }
     // }
   }

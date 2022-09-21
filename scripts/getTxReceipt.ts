@@ -1,6 +1,7 @@
 import { ethers } from "hardhat";
 
 async function main() {
+    // NOTE: this is a tx to create contract, https://optimistic.etherscan.io/tx/0xbc95a0d2c9e55d4cea586d88c1dd33ab9b2e3e2bd72ca5a856825e720fcea97b
     const txHash = "0xbc95a0d2c9e55d4cea586d88c1dd33ab9b2e3e2bd72ca5a856825e720fcea97b"
 
     const chainId = await ethers.provider.send("eth_chainId", [])
